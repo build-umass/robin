@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.urls import path
 from django.conf import settings
 from django.conf.urls import include, url
+from pages.views import home_view
 
 urlpatterns = [
+    path('', home_view),
     path('admin/', admin.site.urls),
-    #url(r'^survey/', include('survey.urls'))
+    url(r'^survey/', include('survey.urls'))
 ]
 
