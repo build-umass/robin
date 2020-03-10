@@ -1,1 +1,12 @@
 /venv/
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/robin.iml
+.idea/vcs.xml
+robin/db.sqlite3
+robin/robin/__pycache__/__init__.cpython-38.pyc
+robin/robin/__pycache__/settings.cpython-38.pyc
+robin/robin/__pycache__/urls.cpython-38.pyc
+robin/robin/__pycache__/wsgi.cpython-38.pyc
+robin/db.sqlite3
